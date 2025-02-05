@@ -2,23 +2,35 @@
 autoinstall:
     version: 1
     identity:
-        realname: 'Dionatan Simioni'
+        realname: 'jonny'
         hostname: ubuntu-desktop
-        username: diolinux
+        username: jonny
         password: '$y$j9T$uhkxlm8nUQaNu.6rl4k2d.$DIldpYy96OHg8lFjfXfc671BZcGWkPOmaDONGAhGSg3'
     locale: pt_BR.utf8
     keyboard:
         layout: br
     timezone: "America/Sao_Paulo"   
     packages:
-        - libreoffice
-        - gimp
-        - git
+        
+        
+        
         - wget
     snaps:
         - name: spotify
           channel: stable
           classic: false
+name: vivaldi
+channel: stable
+classic: false
+
+name: brave-browser
+channel: stable
+classic: false
+
+name: bitwarden
+channel: stable
+classic: false
+          
     codecs:
         install: true
     drivers:
